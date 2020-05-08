@@ -9,6 +9,8 @@ You may encounter build issues when there are whitespaces in the path to OpenCas
 
 You can build OpenCascade.js yourself, as follows:
 
+0. pip install patch requests and any other missing python dependencies
+
 1. Get Emscripten from http://emscripten.org and set it up. See http://kripken.github.io/emscripten-site/docs/getting_started/
 
 2. Run the build script, `python2 make.py` for the JavaScript version and `python2 make.py wasm` for the WebAssembly version. Build results are written to the `dist` folder.
